@@ -27,14 +27,14 @@
 #include <algorithm>
 
 #if (defined(__WIN32__) || defined(WIN32))
-# include "winconfig.h"
+# include "../headers/winconfig.h"
 #else
-# include "config.h"
+# include "../headers/config.h"
 #endif 
 
-#include "cpptest-textoutput.h"
-#include "cpptest-time.h"
-#include "utils.h"
+#include "../headers/cpptest-textoutput.h"
+#include "../headers/cpptest-time.h"
+#include "../headers/utils.h"
 
 using namespace std;
 

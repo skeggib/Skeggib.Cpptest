@@ -25,13 +25,13 @@
 // ---
 
 #if (defined(__WIN32__) || defined(WIN32))
-# include "winconfig.h"
+# include "../headers/winconfig.h"
 #else
-# include "config.h"
+# include "../headers/config.h"
 #endif 
 
-#include "missing.h"
-#include "cpptest-time.h"
+#include "../headers/missing.h"
+#include "../headers/cpptest-time.h"
 
 #ifdef HAVE_GETTIMEOFDAY
 	#ifdef HAVE_SYS_TIME_H

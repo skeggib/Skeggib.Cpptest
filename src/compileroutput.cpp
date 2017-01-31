@@ -27,8 +27,8 @@
 #include <cstring>
 #include <sstream>
 
-#include "cpptest-compileroutput.h"
-#include "cpptest-source.h"
+#include "../headers/cpptest-compileroutput.h"
+#include "../headers/cpptest-source.h"
 
 using namespace std;
 

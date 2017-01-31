@@ -31,14 +31,14 @@
 #include <numeric>
 
 #if (defined(__WIN32__) || defined(WIN32))
-# include "winconfig.h"
+# include "../headers/winconfig.h"
 #else
-# include "config.h"
+# include "../headers/config.h"
 #endif 
 
-#include "cpptest-output.h"
-#include "cpptest-source.h"
-#include "cpptest-suite.h"
+#include "../headers/cpptest-output.h"
+#include "../headers/cpptest-source.h"
+#include "../headers/cpptest-suite.h"
 
 using namespace std;
 

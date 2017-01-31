@@ -24,7 +24,7 @@
 //
 // ---
 
-#include "cpptest-source.h"
+#include "../headers/cpptest-source.h"
 
 using namespace std;
 
